@@ -6,7 +6,7 @@ import javax.persistence.Id;
 import javax.persistence.MappedSuperclass;
 import java.io.Serializable;
 
-@MappedSuperclass //Base class for JPA
+@MappedSuperclass //Base class for JPA - Questo oggetto non viene mappato nel DB
 public class BaseEntity implements Serializable {
 
     @Id
